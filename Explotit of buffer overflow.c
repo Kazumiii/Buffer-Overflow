@@ -3,7 +3,8 @@
 #include<conio.h>
 #include<windows.h>
 
-//code of exploit  using prone  on buffer overrflow
+//code of exploit  using to change return address 
+//in the result of perform this code shellcode can be pop from stack and perform 
 
 //path to defect application
 
