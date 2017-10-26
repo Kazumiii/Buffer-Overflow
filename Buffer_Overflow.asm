@@ -1,9 +1,9 @@
-;stack overflow attack 
+;buffer  overflow attack on stack 
 ;below is assembler's code of main function that takes values from user _and save it _in args[]
 00401030 _main proc near
 00401030
 00401030 arg_0 =dword ptr   8
-00401030 arg_4 -dword ptr   0Ch
+00401030 arg_4 =dword ptr   0Ch
 00401030
 00401030              push ebp
 00401031              mov ebp,esp
@@ -33,9 +33,9 @@
 004010001      mov ebp,esp  
 004010003      sub esp,10h 
 004010006      mov eax,[ebp+8]
-004010009      push eax  ;char*
+004010009      push eax  
 00401000A      lea ecx,[ebp-10]
-00401000D      push ecx   ;char*
+00401000D      push ecx   
 00401000E      call _strcpy
 004010013      add esp,8
 004010016      lea edx,[ebp-10]
