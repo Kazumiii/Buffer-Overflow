@@ -4,7 +4,7 @@
 #include<windows.h>
 
 //code of exploit  using to change return address 
-//in the result of perform this code shellcode can be pop from stack and perform 
+//in the result of perform this code shellcode can be pop from stack and perform (part 2)
 
 //path to defect application
 
