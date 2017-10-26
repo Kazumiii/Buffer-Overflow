@@ -1,5 +1,5 @@
-;bufferoverflow's  shellcode  
-//code injected by hacker to force appllication perform hacker's will (part 3)
+;buffer overflow's  shellcode  
+;code injected by hacker to force appllication perform hacker's will (part 3)
 
 ;book space  on stack
 sub esp,70
