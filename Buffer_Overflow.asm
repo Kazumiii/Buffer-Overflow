@@ -1,3 +1,4 @@
+//here is only attack (part 1)
 ;buffer  overflow attack on stack 
 ;below is assembler's code of main function that takes values from user _and save it _in args[]
 00401030 _main proc near
